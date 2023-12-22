@@ -1,33 +1,36 @@
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+header {
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 20px 0;
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.section {
+    padding: 40px 0;
+}
 
-        .title {
-            text-align: center;
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2b2b2b;
+}
 
-        .about-us {
-            text-align: justify;
-            margin-bottom: 20px;
-        }
+.section-content {
+    font-size: 16px;
+    color: #777;
+}
+.button {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
-        .career-departments {
-            text-align: justify;
-            margin-bottom: 20px;
-        }
-
-        .title, .about-us, .career-departments {
-            color: #333;
-        }
-    </style>
+.button:hover {
+    background-color: #e53935;
+}
